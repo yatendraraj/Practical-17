@@ -50,7 +50,7 @@ function setGreeting(){
 
 function getName(){
 if(localStorage.getItem("myName1")===null){
-    name1.innerHTML="[Yatendra Rajput]";
+    name1.innerHTML="[Name]";
 }
 else{
     name1.innerHTML=localStorage.getItem("myName1");
