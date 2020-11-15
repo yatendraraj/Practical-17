@@ -44,7 +44,7 @@ function setGreeting(){
     else{
         document.body.style.backgroundImage='url("evening.jpg")';
         greeting1.innerHTML='Good Evening';
-        document.body.style.color="white";
+        document.body.style.color="black";
     }
 }
 
